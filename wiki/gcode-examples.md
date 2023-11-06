@@ -76,6 +76,7 @@ M140 S0			; cooling down the bed
 Use the following command for Klipper (per https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/issues/92):
 ```
 @BEDLEVELVISUALIZER	; instruct plugin to start recording responses from printer.
+BED_MESH_CALIBRATE         ; instruct printer to run bed mesh calibration.
 BED_MESH_OUTPUT		; report the bed leveling mesh points.
 ```
 ## ARTILLERY SIDEWINDER X2
